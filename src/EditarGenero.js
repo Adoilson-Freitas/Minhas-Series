@@ -9,7 +9,7 @@ const EditarGenero = ({ match }) => {
   useEffect(() => {
     axios
     .get('/api/genres/' + match.params.id)
-    .then(res => {
+    .then(res => { 
       setName(res.data.name)
     })
   }, [match.params.id])

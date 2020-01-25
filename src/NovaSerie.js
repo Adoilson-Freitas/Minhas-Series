@@ -80,7 +80,7 @@ const NovaSerie = ({ match }) => {
             <input type='text' value={form.comments} onChange={onChange('comments')} className='form-control' id='name' placeholder='O que você achou?' />
           </div>
           <div className='form-group'>
-            <label htmlFor='name'>Gênero</label>
+            <label htmlFor='name'>Gênero</label> 
             <select className='form-control' onChange={onChangeGenre} value={genreId} >
              { genres.map(genre => <option key={genre.id} value={genre.id} >{genre.name}</option>) }
             </select>

@@ -37,7 +37,7 @@ const InfoSerie = ({ match }) => {
   }, [data])
   
 
-  // cstom header
+  // cstom header 
 
 const masteHeader = {
   height: '50vh',

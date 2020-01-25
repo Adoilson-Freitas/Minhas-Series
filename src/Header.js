@@ -18,7 +18,7 @@ const Header = () => {
   }
 
   return (
-    <Navbar color='primary' light expand='md'>
+    <Navbar color='primary' light expand='md'> 
       <div className='container'>
         <NavbarBrand className='text-white' style={{fontSize: '25px'}} tag={Link} to='/'>Minhas Series</NavbarBrand>
         <NavbarToggler onClick={toggle} />
